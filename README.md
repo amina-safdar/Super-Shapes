@@ -6,5 +6,5 @@ Super Shapes is a website developed to showcase web motion graphics as SVG anima
 Super Shapes can be accessed [here](https://super-shapes-105.superhi.com/)
 
 ## Credit
-Code: Amina Safdar\
+Code: Amina Safdar
  
