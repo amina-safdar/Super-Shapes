@@ -7,18 +7,20 @@
 
 /* Add outlines to page */
 .page {
-  border-left: solid 4px #000; border-right: solid 4px #000;
+  border-left: solid 4px #000; 
+  border-right: solid 4px #000;
   position: relative;
 }
 
 /* Pseudo elements for styling */
 .page:after,
 .page:before {
-  content: '0';
-  position: absolute;
-  height: 4px; width: 100%;
-  left: 0;
   background-color: #000;
+  content: '0';
+  height: 4px; 
+  left: 0;
+  position: absolute;
+  width: 100%;  
 }
 
 .page:before {
@@ -62,17 +64,18 @@
 }
 
 .wave path {
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .dot {
-  height: 8px; width: 8px;
   background-color: #000;
+  height: 8px;  
+  width: 8px;
 }
 
 /* Centers rectangles in Box 6 */
 .squares rect {
-  transform-box: fill-box;
   transform: translate(-50%, -50%);
+  transform-box: fill-box;
 }
